@@ -1,0 +1,48 @@
+#tudo {
+    padding-top: 1%;
+    max-width: 1480px; 
+    margin: 0 auto;
+}
+
+#logo {
+    height: 100px;
+    background: #fc0;
+}
+
+#esquerda {
+    padding: 1% 1% 0;
+    width: 320px;
+    height: 220px;
+    background: #fafafa;
+    border-radius: 5%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    float: left;
+}
+
+
+#direita {
+    width: calc(100% - 340px); 
+    height: 800px;
+    background: transparent;
+    float: right;
+}
+
+#esquerda div, #direita div {
+    margin: 5px;
+    width: 120px; 
+    height: 100px;
+    background: transparent;
+    transition: background 0.3s; 
+}
+
+
+#esquerda div:hover, #direita div:hover {
+    background: rgba(255, 204, 0, 0.3); 
+}
+
+
+#rodape {
+    clear: both;
+    height: 100px;
+    background: #fc0;
+}
